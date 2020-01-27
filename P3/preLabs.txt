@@ -1,0 +1,37 @@
+Pre-Lab Excercises
+
+1. Pointer Problems
+    (a) A non-pointer variable cannot 'be' NULL, it must be a pointer to NULL.
+
+    (b) This is trying to set the memory address that the pointer points to as
+        42, which is not valid.
+
+    (c) pointer does not currently point to any memory adress (ie. 
+        uninitialised), so we can not set the value at it's pointed-to
+        memory address.
+
+2. Referencing and Dereferencing
+    (a) Set x to point to the address of a (NULL -> 0x1000), then the
+        dereference of x is set to the value of b (2 -> 10).
+
+    (b) Set s (a pointer to a int pointer) to the address of x 
+        (NULL -> 0x1002). Then sets x (an int pointer) to the address of
+        a (an int = 2). Then sets y (an int pointer) to the address of
+        b (an int = 10). Then t is set to s, so t's value is now s, s is a 
+        memory adress to x, which is a memory address of a, which is an int 
+        equal to 2. **t * *y becomes 2 * 10, so a becomes 20.
+
+    (c) x = &a : Set x to the address of a.
+        y = &b : Set y to the address of b.
+        (i <= *x) -> (i <= a) -> (i <= 2)
+        (1st loop i = 1) (*y = *y * 2) -> (b = b * 2) -> (b = 20)
+        (2nd loop i = 2) (*y = *y * 2) -> (b = b * 2) -> (b = 20 * 2 = 40)
+
+    (d) x = &b : Set x to the address of b. (x is pointer to int b)
+        y = &a : Set y to the address of a. (y is pointer to int a)
+        t = &y : Set t to the address of y. (t is pointer to pointer to int)
+        (**t > 5) -> (*y > 5) -> (2 > 5) -> (FALSE) (if statement fails)
+        s = &x : Set s to the address of x. (s is a pointer to a pointer to 
+        an int) 
+        (**s = **s / *x) -> (*x = *x / *x) -> (b = b / b) -> (b = 10 / 10) ->
+        (b = 1)
