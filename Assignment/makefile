@@ -1,4 +1,4 @@
-# Alec Maughan 19513869
+# Alec Maughan
 # UCP Assignment Makefile
 # 20/10/19
 
