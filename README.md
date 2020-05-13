@@ -1,6 +1,6 @@
 # Unix and C Programming (Curtin University 2019)
 
-A 1st-year taken in Semester 2 2019.
+A 1st-year unit taken in Semester 2 2019.
 
 From the unit handbook:
 
