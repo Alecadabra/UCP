@@ -12,10 +12,10 @@ From the unit handbook:
 
 There's no proper commit history because it wasn't developed using GitHub.
 
-## Assignment
+## [Assignment](Assignment)
 
 A simple game of tic-tac-toe with two human players. The board size and number of matches in a row to win is given as command line arguments. Uses a generic linked list to store logs and print them to file. Has conditional compilation in make to allow settings to be changed at run time or to disable logs.
 
-## Practical Excercises
+## [Practical Excercises](Practical%20Excercises)
 
 Weekly asessed assignments to demonstrate that week's course content. I don't provide the worksheets that these are based on for copyright reasons so they don't make a lot of sense without context.
