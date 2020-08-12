@@ -6,7 +6,7 @@ Part of my Computer Science degree at Curtin University. My final mark was 88%.
 --- | --- | --- | --- | --- | --- |
 [OOPD](https://github.com/Alecadabra/OOPD) | **UCP**<br>[DSA](https://github.com/Alecadabra/DSA) | [OS](https://github.com/Alecadabra/OS)<br>[OOSE](https://github.com/Alecadabra/OOSE)
 
-From the unit handbook:
+Syllabus:
 
 > This unit introduces students to the C programming language and the related concepts and tools used to design, implement, test and debug C programs. Topics covered include: C Fundamentals. Functions and program structure. Designing programs with derived types. Pointers. Abstract data types. Strings, streams and input/output (I/O). Dynamic memory allocation and C programming utilitiers for program construction and diagnosis.
 
