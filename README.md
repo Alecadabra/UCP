@@ -1,6 +1,6 @@
-# Unix and C Programming (Curtin University 2019)
+# Unix and C Programming
 
-Part of my Computer Science degree at Curtin University. My final mark was 88%.
+Part of my Computer Science degree at Curtin University in 2019. My final mark was 88%.
 
 There's no proper commit history because it wasn't developed using GitHub.
 
